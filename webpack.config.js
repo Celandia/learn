@@ -75,6 +75,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: './index.html'
-        })
+        }),
+        new ExtractTextPlugin('css/[name]_[hash].css')  // 分离css文件
     ]
 };
