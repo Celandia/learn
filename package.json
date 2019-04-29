@@ -9,7 +9,9 @@
     },
     "author": "chengyan",
     "license": "ISC",
-    "dependencies": {},
+    "dependencies": {
+        "@jd/ebc-react-ui": "0.2.19"
+    },
     "devDependencies": {
         "babel-core": "^6.26.3",
         "babel-loader": "^7.1.5",
